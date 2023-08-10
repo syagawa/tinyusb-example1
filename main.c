@@ -46,12 +46,13 @@ try changing the first byte of tud_network_mac_address[] below from 0x02 to 0x00
 #include "bsp/board.h"
 #include "tusb.h"
 
-#include "dhserver.h"
-#include "dnserver.h"
+#include "lib/networking/dhserver.h"
 #include "lwip/init.h"
 #include "lwip/timeouts.h"
 #include "lwip/ethip6.h"
 #include "httpd.h"
+
+
 
 #define INIT_IP4(a,b,c,d) { PP_HTONL(LWIP_MAKEU32(a,b,c,d)) }
 
