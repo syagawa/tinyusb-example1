@@ -8,3 +8,6 @@
 4. search tinyusb and install ESP32TinyUSB and  Adafruit_TinyUSB_Arduino
 5. select board M5Stack-ATOMS3
 
+## refs
+
+https://www.seeedstudio.com/blog/2020/04/30/tinyusb-stack-on-seeeduino-xiao/
