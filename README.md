@@ -33,3 +33,4 @@ https://lang-ship.com/blog/work/m5stack-atoms3-2/
     * https://github.com/m5stack/M5AtomS3/tree/main/examples/Advanced/EzData
     * how to get token => click refresh token http://docs.m5stack.com/en/arduino/iotservice/ezdata
     * require libraries: ArduinoJson
+    * check after executed https://ezdata.m5stack.com/api/store/<token>/testList/ https://ezdata.m5stack.com/api/store/<token>/testData/
